@@ -1,0 +1,84 @@
+body {
+  margin-top: 30px;
+  width: 400px;
+  text-align: left;
+  margin: 0 auto;
+  display: block;
+  outline:
+}
+
+span {
+  font-size: 24px;
+  font-weight: bolder;
+}
+
+div {
+  margin-top: 40px;
+}
+
+section {
+  margin-top: 10px;
+}
+
+.text-box {
+  width: 100%;
+  height: 35px;
+  font-size: 24px;
+}
+
+/* this is for check box styles */
+
+input[type=checkbox] {
+  display:none;
+}
+
+input[type=checkbox] + label.check{
+display:inline-block;
+cursor: pointer;
+outline: 0;
+background-image: url(sprites/form-elements-sprite.png);
+background-repeat: no-repeat;
+background-position: -159px -239px;
+width: 161px;
+height: 160px;
+margin-right: 25px;
+text-align: center;
+font-weight: bold;
+zoom: .3;
+}
+
+
+input[type=checkbox]:checked + label.check {
+  background-position: -381px -238px;
+}
+
+/* this is for radio styles */
+
+input[type="radio"] {
+  display:none;
+}
+
+label[for="radio-1"], label[for="raido-2"] {
+  background: url(sprites/form-elements-sprite.png);
+  background-repeat: no-repeat;
+  background-position: -577px -236px;
+  width: 178px;
+  height: 175px;
+  margin-right: 15px;
+}
+
+input:checked + label[for="radio-1"],
+input:checked + label[for="raido-2"] {
+  background-position: -808px -234px;
+}
+
+.buttons {
+  height: 35px;
+  width: 90px;
+  margin-right: 15px;
+}
+
+#button-2 {
+  background-color: black;
+  color: white;
+}

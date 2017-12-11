@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+
+    <div>
+      <label><span>text input</span></label>
+        <section>
+          <input type="text" class="text-box" id="text-input" placeholder="placeholder text" required>
+        </section>
+    </div>
+
+    <div >
+      <label>
+        <span>Text Input</span>
+        <input type="text" id="username" class="text-box" name="text" placeholder="Placeholder text" required>
+        <p class="error">please enter a valid username</p>
+      </label>
+    </div>
+
+    <div>
+      <label for="selectbox"><span>select box</span></label>
+        <section>
+          <select name="selectbox" required>
+             <option disabled selected value> please select an option... </option>
+             <option value="option"> option 1</option>
+             <option value="option"> option 2</option>
+             <option value="option"> option 3</option>
+             <option value="option"> option 4</option>
+             <option value="option"> option 5</option>
+          </select>
+        </section>
+    </div>
+
+    <div>
+      <label for="test"><span>checkbox</span></label>
+        <section>
+          <input type="checkbox" id="check-1" name="checkbox-btns-sprite">
+          <label for="check-1" class="check"></label>
+          <input type="checkbox" id="check-2" name="checkbox-btns-sprite">
+          <label for="check-2" class="check"></label>
+        </section>
+    </div>
+
+
+    <div class="raidobox-area">
+      <label for="radio" ><span>raido</span></label>
+        <section>
+          <input type="radio" id="radio-1">
+          <label for="radio-1">radio 1</label>
+          <input type="radio" id="radio-2">
+          <label for="radio-2">radio 2</label>
+        </section>
+    </div>
+
+    <div class="button-area">
+      <label for="button" class="button-name"><span>Buttons</span></label>
+      <section>
+        <button type="button" id="button-1" class="buttons"><h5>submit</h5></button>
+        <button type="button" id="button-2" class="buttons"><h5>submit</h5></button>
+      </section>
+    </div>
+    <script src="app.js"></script>
+
+    </script>
+  </body>
+</html>
